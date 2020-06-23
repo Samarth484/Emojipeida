@@ -9,9 +9,11 @@ function createEntry(emojiTerm) {
       emoji={emojiTerm.emoji}
       name={emojiTerm.name}
       meaning={emojiTerm.meaning}
-      </Entry>
-// right now it is rendering correclty when i am using the self
-// closing tag on <Entry>, but when i dont do so, it fails to render
+    </Entry>
+    //Right now the Entry tag that I've just used 
+    //is opened and closed explicitly and does not
+    //gets rendered as expected
+
   );
 }
 
