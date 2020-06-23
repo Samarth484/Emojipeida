@@ -4,16 +4,16 @@ import emojipedia from "../emojipedia";
 
 function createEntry(emojiTerm) {
   return (
-    <Entry>
+    <Entry
       key={emojiTerm.id}
       emoji={emojiTerm.emoji}
       name={emojiTerm.name}
       meaning={emojiTerm.meaning}
-    </Entry>
+    />
     //Right now the Entry tag that I've just used 
-    //is opened and closed explicitly and does not
+    //is in the form of a self closing tag and that
     //gets rendered as expected
-
+    
   );
 }
 
